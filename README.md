@@ -42,7 +42,7 @@ Os arquivos mais importantes são o con_db.php e o db_config.php.
 ## Informações adicionais
 
 Posso utilizar este projeto em meu site?
-> Sim, desde que corrija as brechas de segurança e credite o autor.
+> Sim, desde que corrija as brechas de segurança e observe as normas da licença MIT.
 
 Autor:
 Cesar Augusto Manholer
