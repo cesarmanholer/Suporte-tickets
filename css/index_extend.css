@@ -1,0 +1,140 @@
+*{
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+}
+
+html,body{
+    height: 100%;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+#msgError{
+    color: white;
+    background-color: #e66a6a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 5px solid red;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    animation: animError;
+    animation-duration: 2s;
+    -webkit-animation: animError;
+    -webkit-animation-duration: 2s;
+    -moz-animation: animError;
+    -moz-animation-duration: 2s;
+    -o-animation: animError;
+    -o-animation-duration: 2s;
+}
+
+@keyframes animError{
+    0%{background-color: #e66a6a;}
+    25%{background-color: red;}
+    50%{background-color: #e66a6a;}
+    75%{background-color: red;}
+    100%{background-color: #e66a6a;}
+}
+
+@-webkit-keyframes animError{
+    0%{background-color: #e66a6a;}
+    25%{background-color: red;}
+    50%{background-color: #e66a6a;}
+    75%{background-color: red;}
+    100%{background-color: #e66a6a;}
+}
+
+@-moz-keyframes animError{
+    0%{background-color: #e66a6a;}
+    25%{background-color: red;}
+    50%{background-color: #e66a6a;}
+    75%{background-color: red;}
+    100%{background-color: #e66a6a;}
+}
+
+@-o-keyframes animError{
+    0%{background-color: #e66a6a;}
+    25%{background-color: red;}
+    50%{background-color: #e66a6a;}
+    75%{background-color: red;}
+    100%{background-color: #e66a6a;}
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d;
+}
+
+    #container form{
+        border: 1px solid #b1b1b1;
+        height: auto;
+        width: 500px;
+        padding: 20px;
+        color: white;
+    }
+
+        #container form input[type="text"]{
+            width: 465px;
+            height: 25px;
+            margin-bottom: 28px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: black;
+            background-color: #d1d1d1ea;
+            border: none;
+        }
+
+        #container form input[type="password"]{
+            width: 465px;
+            height: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 28px;
+            color: black;
+            background-color: #d1d1d1ea;
+            border: none;
+        }
+
+        #container form input[type="submit"]{
+            width: 500px;
+            height: 35px;
+            background: none transparent no-repeat;
+            border: 1px solid #555;
+            color: white;
+        }
+
+        #container form #reg{
+            margin-top: 10px;
+            text-align: center;
+        }
+
+            #container form p a{
+                color: #665de6;
+                text-decoration: none;
+            }
