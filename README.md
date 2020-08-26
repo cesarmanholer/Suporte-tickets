@@ -17,6 +17,9 @@ Ao longo da criação do projeto observei algumas falhas, não as corrigi pois o
 - Cross‑Site Scripting (XSS)
 > Algumas paginas possui proteções, mas recomendo revisar tudo para que não haja nenhuma brecha.
 
+- SQL Injection
+> Não inseri proteções contra SQL injection, alguns metodos em PHP é a utilização do addslashes(), PDO, recomendo ver a [documentação](https://www.php.net/manual/pt_BR/security.database.sql-injection.php) para mais detalhes.
+
 - Criptografia de senha
 > Não inclui nenhuma medida de criptografia para as senha, caso utilize em algum projeto final tera que se atentar a esse ponto importante.
 
